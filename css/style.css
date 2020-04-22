@@ -1,0 +1,149 @@
+header {
+  background-color: #007765;
+  position: sticky;
+  top: 0;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto, sans-serif;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+} /*clear margins collapse*/
+.logo {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: auto;
+}
+nav {
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  line-height: 45px;
+}
+
+ul a,
+ul li {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+.heroOne {
+  background-image: url(../pic/background1.png);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.heroOneMessage {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #ffffff;
+}
+div h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+  padding-top: 53.12px; /*margin collapse*/
+  margin-top: 0;
+}
+div p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+}
+.theProblem {
+  background: #eeeeee;
+}
+.heroTwo {
+  background-image: url(../pic/background2.png);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.heroTwoMessage {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 108px;
+  padding-left: 108px;
+}
+.introducingCoin img {
+  float: left;
+  padding-right: 50px;
+}
+.theTeam {
+  background: #eeeeee;
+}
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.teammate {
+  text-align: center;
+  width: 33%; /*flex-basis: 33%*/
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.teammateName {
+  margin: 0;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #007765;
+}
+.teammateRole {
+  font-style: italic;
+  font-size: 18px;
+}
+footer {
+  background: #333333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  width: 540px;
+  height: 64px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 64px;
+}
